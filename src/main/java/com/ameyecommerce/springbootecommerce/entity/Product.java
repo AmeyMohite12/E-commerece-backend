@@ -9,6 +9,10 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 
+
+/// @Data annotation helps to generate getter and setter @Getter @Setter does the same , but @Data has some issues with
+/// one to many may to one usage of some columns
+
 @Entity
 @Table(name="product")
 @Data
